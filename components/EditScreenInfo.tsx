@@ -10,7 +10,8 @@ export const EditScreenInfo = ({ path }: { path: string }) => {
       <View className={styles.getStartedContainer}>
         <Text className={styles.getStartedText}>{title}</Text>
         <View className={styles.codeHighlightContainer + styles.homeScreenFilename}>
-          <Text>{path}</Text>
+          <Text className={styles.getStartedText}>{path}</Text>
+          <Text className='text-red-500'>Hola</Text>
         </View>
         <Text className={styles.getStartedText}>{description}</Text>
       </View>
