@@ -2,10 +2,17 @@
 import React from 'react'
 // import { SafeAreaView } from 'react-native-safe-area-context';
 import { Link, Redirect } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 const index = () => {
   return (
+    <>
+    {/* <StatusBar style='dark' /> */}
+      <Redirect href='/home' /> 
+      
+    
+    </>
 
-    <Redirect href='/(stack)/home'/> 
+    // <Redirect href='/(stack)/home'/> 
 
     // el safe area lo ponemos por pantalla y no en el layout por si quisieramos algun diseño que ocupe todo el espacio
     // <SafeAreaView>

@@ -10,20 +10,20 @@ const HomeScreen = () => {
     <SafeAreaView>
       <View className='px-10'>
 
-        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/products')}>
+        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/drawer/tabs/(stack)/products')}>
           Productos
         </CustomButton>
 
-        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/profile')}>
+        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/drawer/tabs/(stack)/profile')}>
           Perfil
         </CustomButton>
 
-        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/settings')}>
+        <CustomButton color='secondary' className='mb-2' onPress={() => router.push('/drawer/tabs/(stack)/settings')}>
           Configuración
         </CustomButton>
 
         {/* podemos hacerlo mediante un Link */}
-        <Link href='/products' asChild>
+        <Link href='/drawer/tabs/(stack)/products' asChild>
           <CustomButton color='primary' >
             Productos
           </CustomButton>

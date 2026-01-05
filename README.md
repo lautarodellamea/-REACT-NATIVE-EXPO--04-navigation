@@ -77,6 +77,42 @@ No se requieren variables de entorno para el funcionamiento básico de la aplica
 
 Las fuentes personalizadas se encuentran en `assets/fonts/` y se cargan mediante `expo-font` en el layout principal.
 
+## 🔖 Checkpoints del Proyecto
+
+Este proyecto tiene checkpoints para poder volver a estados anteriores del desarrollo.
+
+### Checkpoint: Stack Navigation (Primera Parte)
+
+**Rama:** `stack-navigation-checkpoint`  
+**Tag:** `v1.0-stack-navigation`  
+**Descripción:** Estado del proyecto al completar la primera parte (Stack Navigation y estilos globales)
+
+#### Cómo volver a este checkpoint:
+
+**Opción 1: Usando la rama**
+
+```bash
+git checkout stack-navigation-checkpoint
+```
+
+**Opción 2: Usando el tag**
+
+```bash
+git checkout v1.0-stack-navigation
+```
+
+**Opción 3: Crear una nueva rama desde el checkpoint**
+
+```bash
+git checkout -b mi-nueva-rama v1.0-stack-navigation
+```
+
+#### Para volver a la rama principal (después de trabajar con tabs/drawers):
+
+```bash
+git checkout main
+```
+
 ## 📖 Recursos Adicionales
 
 - [Documentación de Expo](https://docs.expo.dev/)
